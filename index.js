@@ -209,4 +209,4 @@ bot.on("message", async message => {
 //ready the bot
   console.log(`Security 301 is online and ready to protect ${bot.guilds.size} servers and watching ${bot.users.size} users!`)
   //bot token
-  bot.login(botconfig.token);
+  bot.login(process.env.token);
